@@ -1,0 +1,30 @@
+IC1 点火パルス割り込み入力でハンドラ起動
+  割り込みハンドラ内では割り込み禁止
+　if (fBefore == 1) && (fDone == 0) {
+    if (CNT < 0x8000) {  オーバーフローしている。
+  　　fDone = 1;
+　　　counterHI += 1;
+　　}
+　}
+　通常処理
+
+OVF time W オーバーフロー発生で割り込み発生
+  割り込みハンドラ内では割り込み禁止
+　if (fDone == 0) {
+　　fDone = 1;
+　　counterHI += 1;
+　}
+
+OC3 time W が E700H(65536-6400,1.6ms@4M(1/32φ))で割り込み発生
+  割り込みハンドラ内では割り込み禁止
+　fBefore Set
+
+OC4 time W が 1900H(6400,1.6ms@4M(1/32φ))で割り込み発生
+  割り込みハンドラ内では割り込み禁止
+　fBefore Clear
+　fOverflow Clear
+　fDone Clear
+　fAfter Set
+
+fDone 上位 16bit をインクリメントしたとき 1
+	OC4 割り込みでクリア

@@ -1,0 +1,227 @@
+Archive member included because of file (symbol)
+
+c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/h8300h/int32\libgcc.a(_divsi3.o)
+                              C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o (___modsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+_LcdRam             0x20              C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+_lastLcdRam         0x20              C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+syscall          0x00000100         0x00000200         r
+rom_tbl          0x00005800         0x00000100         r
+rom              0x00005900         0x00002700         r
+ram              0x0000f9c0         0x00000080         xrw
+stack            0x00000000         0xffffffff
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\mugi\AppData\Local\Temp/ccUBw4d9.o
+LOAD C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+LOAD C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+LOAD C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+LOAD C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/../../../../h8300-elf/lib/h8300h/int32\libc.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/h8300h/int32\libgcc.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/../../../../h8300-elf/lib/h8300h/int32\libg.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/../../../../h8300-elf/lib/h8300h/int32\libc.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/h8300h/int32\libgcc.a
+
+.syscall        0x00000100        0x0
+                0x00000100                _sys_write = (. + 0x0)
+                0x00000104                _write_string = (. + 0x4)
+                0x00000108                _write_mode = (. + 0x8)
+                0x00000108                _set_membuf = (. + 0x8)
+                0x0000010c                _sys_read = (. + 0xc)
+                0x00000110                _read_string = (. + 0x10)
+                0x00000114                _sio_speed = (. + 0x14)
+                0x00000118                _atohex = (. + 0x18)
+                0x0000011c                _lcd_clear = (. + 0x1c)
+                0x00000120                _lcdsetup = (. + 0x20)
+                0x0000013c                _sleep = (. + 0x3c)
+                0x00000164                _write_decimal = (. + 0x64)
+                0x00000168                _atodec = (. + 0x68)
+                0x000001bc                _int_regist = (. + 0xbc)
+                0x000001c0                _int_unregist = (. + 0xc0)
+                0x000001e8                _ps2_setup = (. + 0xe8)
+                0x000001ec                _key_read = (. + 0xec)
+                0x000001f0                _nmi_edge = (. + 0xf0)
+                0x000001f4                _read_mode = (. + 0xf4)
+                0x000001f8                _eep_setup = (. + 0xf8)
+                0x000001fc                _eep_write = (. + 0xfc)
+                0x00000200                _eep_read = (. + 0x100)
+                0x0000023c                _print = (. + 0x13c)
+                0x00000240                _sprint = (. + 0x140)
+                0x00000244                _scan = (. + 0x144)
+                0x00000248                _sscan = (. + 0x148)
+                0x00000254                _rtc_setup = (. + 0x154)
+                0x00000258                _rtc_read = (. + 0x158)
+                0x0000025c                _rtc_write = (. + 0x15c)
+                0x00000260                _mem_size = (. + 0x160)
+                0x00000264                _sio_change = (. + 0x164)
+                0x00000268                _easy_max = (. + 0x168)
+                0x0000026c                _easy_dir = (. + 0x16c)
+                0x00000270                _easy_format = (. + 0x170)
+                0x00000274                _easy_find = (. + 0x174)
+                0x00000278                _easy_del = (. + 0x178)
+                0x0000027c                _easy_create = (. + 0x17c)
+                0x00000280                _easy_write = (. + 0x180)
+                0x00000284                _easy_read = (. + 0x184)
+                0x00000288                _easy_exec = (. + 0x188)
+                0x0000028c                _get_eepsize = (. + 0x18c)
+                0x00000290                _putch = (. + 0x190)
+                0x00000294                _getch = (. + 0x194)
+
+.rom_tbl        0x00005800        0x4
+                0x00005800        0x4 LONG 0x5f5c DEFINED (_func_tbl)?ABSOLUTE (_func_tbl):ABSOLUTE (_nop)
+
+.text           0x00005900      0x6b0
+ *(.text)
+ .text          0x00005900        0x6 C:\Users\mugi\AppData\Local\Temp/ccUBw4d9.o
+                0x00005900                _start
+ .text          0x00005906        0xe C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+                0x00005906                _main
+ .text          0x00005914       0x76 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+                0x00005914                _handleTimerAOverflow
+                0x0000594e                _InitTimerA
+                0x0000593a                _GetTimerA_Counter
+ .text          0x0000598a      0x232 C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+                0x00005ac6                _handle
+                0x0000598a                _handle_overflow
+                0x000059c4                _handle_input_capture
+                0x00005b02                _GetPeriodW
+                0x00005a80                _handle_before_point
+                0x00005b16                _GetRenewStateW
+                0x00005b34                _InitTimerW
+                0x00005aa0                _handle_after_point
+ .text          0x00005bbc      0x314 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+                0x00005d06                _lcd_putram
+                0x00005c8c                _RewriteLcd
+                0x00005d48                _InitLcd
+                0x00005ce2                _SetLcdRam
+                0x00005e30                _DispLcdBar
+ .text          0x00005ed0       0x8c c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/h8300h/int32\libgcc.a(_divsi3.o)
+                0x00005efe                ___umodsi3
+                0x00005f04                ___divsi3
+                0x00005ef2                ___modsi3
+                0x00005f1a                ___udivsi3
+ *(.strings)
+ *(.rodata)
+ .rodata        0x00005f5c       0x24 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+                0x00005f5c                _func_tbl
+ .rodata        0x00005f80       0x30 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+ *(.rodata.str1.1)
+                0x00005fb0                _etext = .
+
+.tors           0x00005fb0        0x0
+                0x00005fb0                ___ctors = .
+ *(.ctors)
+                0x00005fb0                ___ctors_end = .
+                0x00005fb0                ___dtors = .
+ *(.dtors)
+                0x00005fb0                ___dtors_end = .
+
+.data           0x0000f9c0        0x0 load address 0x00005fb0
+                0x0000f9c0                ___data = .
+ *(.data)
+ .data          0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/ccUBw4d9.o
+ .data          0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .data          0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .data          0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .data          0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+ .data          0x0000f9c0        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/h8300h/int32\libgcc.a(_divsi3.o)
+ *(.tiny)
+                0x0000f9c0                _edata = .
+
+.bss            0x0000f9c0       0x5c
+                0x0000f9c0                _bss_start = .
+ *(.bss)
+ .bss           0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/ccUBw4d9.o
+ .bss           0x0000f9c0        0x0 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .bss           0x0000f9c0        0x2 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+                0x0000f9c0                _TimerA_Counter
+ *fill*         0x0000f9c2        0x2 00
+ .bss           0x0000f9c4       0x18 C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .bss           0x0000f9dc        0x0 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+ .bss           0x0000f9dc        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.3-GNUH8_v0803/h8300h/int32\libgcc.a(_divsi3.o)
+ *(COMMON)
+ COMMON         0x0000f9dc       0x40 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+                0x0000f9dc                _LcdRam
+                0x0000f9fc                _lastLcdRam
+                0x0000fa1c                _end = .
+
+.stack          0x00000000        0x0
+                0x00000000                _stack = .
+ *(.stack)
+OUTPUT(test85.elf elf32-h8300)
+
+.debug_abbrev   0x00000000      0x423
+ .debug_abbrev  0x00000000       0x97 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_abbrev  0x00000097       0xd0 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_abbrev  0x00000167       0xee C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_abbrev  0x00000255      0x1ce C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_info     0x00000000      0x744
+ .debug_info    0x00000000       0x98 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_info    0x00000098      0x106 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_info    0x0000019e      0x22e C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_info    0x000003cc      0x378 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_line     0x00000000      0x1ba
+ .debug_line    0x00000000       0x39 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_line    0x00000039       0x56 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_line    0x0000008f       0x87 C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_line    0x00000116       0xa4 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_frame    0x00000000      0x190
+ .debug_frame   0x00000000       0x20 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_frame   0x00000020       0x40 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_frame   0x00000060       0x90 C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_frame   0x000000f0       0xa0 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_loc      0x00000000      0x25a
+ .debug_loc     0x00000000       0x13 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_loc     0x00000013       0x26 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_loc     0x00000039       0x5f C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_loc     0x00000098      0x1c2 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_pubnames
+                0x00000000      0x1a8
+ .debug_pubnames
+                0x00000000       0x28 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_pubnames
+                0x00000028       0x63 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_pubnames
+                0x0000008b       0xaa C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_pubnames
+                0x00000135       0x73 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_aranges  0x00000000       0x80
+ .debug_aranges
+                0x00000000       0x20 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_aranges
+                0x00000020       0x20 C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .debug_aranges
+                0x00000040       0x20 C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .debug_aranges
+                0x00000060       0x20 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+
+.debug_str      0x00000000      0x264
+ .debug_str     0x00000000       0x66 C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .debug_str     0x00000066       0x6d C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+                                 0xdd (size before relaxing)
+ .debug_str     0x000000d3       0xdb C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+                                0x16e (size before relaxing)
+ .debug_str     0x000001ae       0xb6 C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
+                                0x137 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x1c C:\Users\mugi\AppData\Local\Temp/ccUXtFlK.o
+ .comment       0x0000001c       0x1c C:\Users\mugi\AppData\Local\Temp/ccUd8rlo.o
+ .comment       0x00000038       0x1c C:\Users\mugi\AppData\Local\Temp/cckb2Qq9.o
+ .comment       0x00000054       0x1c C:\Users\mugi\AppData\Local\Temp/cc8AQqn1.o
